@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "types": [],
+    "typeRoots": ["node_modules/@types"],
+
+    "baseUrl": ".",
+
+    "paths": {
+      "src/*": ["src/*"],
+      "app/*": ["*"],
+      "components/*": ["src/components/*"],
+      "layouts/*": ["src/layouts/*"],
+      "pages/*": ["src/pages/*"],
+      "constant/*": ["src/constant/*"],
+      "assets/*": ["src/assets/*"],
+      "plugins/*": ["src/plugins/*"]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+
+    "newLine": "lf",
+    "jsx": "preserve",
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true
+  },
+  "include": [
+    "**/*.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
