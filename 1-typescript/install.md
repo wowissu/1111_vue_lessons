@@ -16,3 +16,8 @@
 ```console
 # tsc index.ts
 ```
+
+
+## on Vscode
+
+![vscode typescript ext](img/vscode-typescript.png)

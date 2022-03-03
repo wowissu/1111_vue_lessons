@@ -4,11 +4,13 @@
 
 - 增加可讀性
 - coding 階段變成發現大部分的錯誤
-- 與 IDE 配合可以達到 autocomplete, suggestions
+- 與 IDE 配合可以達到 autocompleㄍㄛte, suggestions
 
 [安裝](install.md)
 
 [設定](type-config.md)
+
+[編碼器](compiler.md)
 
 ---
 
