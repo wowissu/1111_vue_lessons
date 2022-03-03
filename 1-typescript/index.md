@@ -30,8 +30,14 @@
 
 [擴充](advance/type-extends.md)
 
-[元組 Tuple](advance/tuple.md)
-
 [工具](advance/utility-types.md)
 
 [裝飾(Decorators)](advance/decorators.md)
+
+## 學習資源
+
+[官方文件](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
+
+[tutorialsteacher](https://www.tutorialsteacher.com/typescript/type-assertion)
+
+[遠征Typescript](https://ithelp.ithome.com.tw/articles/10214714)

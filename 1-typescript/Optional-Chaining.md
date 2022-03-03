@@ -29,21 +29,6 @@ if (foo?.bar?.baz) {
 let x = foo ?? bar();
 ```
 
-## Assertion Functions
-
-```ts
-declare function assert(value: unknown): asserts value;
-
-assert(a === 42);
-
-function multiply(x: unknown, y: unknown) {
-  assert(typeof x === "number");
-  assert(typeof y === "number");
-
-  return x * y;
-}
-```
-
 ## Short-Circuiting Assignment Operators
 
 ```ts

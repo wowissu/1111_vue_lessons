@@ -2,10 +2,11 @@
 
 ```mermaid
 stateDiagram
-    state "<b>PureSourceCode</b>\n(Javascript,CSS,Image)" as Source
-    state "<b>StaticSourceCode</b>\n(Javascript,CSS,Image)" as Static
-    state "<b>Compiler</b>\n(Webpack,rollup(vite))" as Compiler
-    state "<b>SourceCode</b>\n (Typescript,Sass,JSX)" as SourceCode
+    direction LR
+    Source: "<b>PureSourceCode</b>\n(Javascript,CSS,Image,...)"
+    Static: "<b>StaticSourceCode</b>\n(Javascript,CSS,Image,...)"
+    Compiler: "<b>Compiler</b>\n(Webpack,rollup(vite),gulp,...)"
+    SourceCode: "<b>SourceCode</b>\n (Typescript,Sass,JSX,...)"
 
     Source --> ClientBrowser
 

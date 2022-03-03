@@ -121,5 +121,5 @@ const cat: Animal.Cat = { name: 'yooy' };
 const cat2 = Animal('my cat')
 ```
 
-## [export 匯出](/ype-export.md)
+## [export 匯出](type-export.md)
 

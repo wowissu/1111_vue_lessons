@@ -22,7 +22,7 @@ const foo: void;
 const foo: undefined | null;
 ```
 
-### 物件不是資料型別 (test)
+### 物件資料型別 (test)
 
 ```ts
 const boo: Boolean = new Boolean(true);
@@ -31,7 +31,7 @@ const boo: String = new String('123');
 
 ### `Q 填入 === or !==`
 
-```ts
+```js
 const a = new Boolean(true) ??? true;
 const b = new String('123') ??? '123';
 
@@ -50,6 +50,21 @@ foo = 7;
 
 ```ts
 const str: any = '456';
+```
+
+### unknow type
+
+Any型別的安全版，可接受賦值，但無法給值。操作方法也會報錯
+
+[參考](https://ithelp.ithome.com.tw/articles/10223315)
+
+```ts
+let foo = 'bar';
+foo = 7;
+
+let bar: unknown = '123';
+bar = 7;
+foo = bar;
 ```
 
 ## Interfaces
